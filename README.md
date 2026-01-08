@@ -2,14 +2,14 @@ npm install
 
 
 .env
-# MongoDB
+<!-- MongoDB -->
 DATABASE_URL="mongodb+srv://user:pass@cluster/dbname"
 
-# NextAuth
+<!-- NextAuth -->
 NEXTAUTH_SECRET="super-secret"
 NEXTAUTH_URL="http://localhost:3000"
 
-# Cloudinary
+<!-- Cloudinary -->
 CLOUDINARY_CLOUD_NAME="xxx"
 CLOUDINARY_API_KEY="xxx"
 CLOUDINARY_API_SECRET="xxx"
