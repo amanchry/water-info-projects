@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "src": "/api/auth/(.*)",
+        "dest": "/api/auth/$1",
+        "methods": ["GET", "POST"]
+      }
+    ]
+  }

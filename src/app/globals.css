@@ -1,26 +1,125 @@
 @import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
+
+
+@theme {
+  --color-primary1: #264c73;
+  --color-primary2: #165286;
+  --color-primary3: #3f7fc0;
+  --color-secondary1: #842828;
+  --color-secondary2: #267029;
+  --color-secondary3: #977e2e;
+  --color-gray1: #8b8d98;
+  --color-gray2: #60646c;
+  --color-lightGray: #f9f9fb;
+  --color-lightGray1: #fcfcfd;
+  --color-dark: #1c2024;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-sans: var(--font-dm-sans);
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
 }
+.spaceGrotesk {
+  font-family: var(--font-space-grotesk), "sans-serif";
+}
+
+.subSecNav {
+  cursor: pointer;
+}
+.subSecNav:hover p,
+.subSecNav:hover span::before {
+  @apply !text-primary3;
+}
+
+.rt-BaseRadioRoot:where(.rt-variant-surface):where(
+    :checked,
+    [data-state="checked"]
+  ):before {
+  @apply bg-primary3;
+}
+.inputText {
+  @apply bg-[var(--gray-3)] text-xs text-gray2 p-2 rounded-sm border border-[var(--gray-5)];
+}
+
+.collapsible-icon::before {
+  color: #1c2024 !important;
+}
+
+/* Custom scrollbar styles for CollapsibleCard children */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #ecf2f9;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c5d9ec;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #b0c8e0;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none !important;
+  background: transparent !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  display: none !important;
+  background: transparent !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Firefox scrollbar styles */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #c5d9ec #ecf2f9;
+}
+
+/* Radix ScrollArea basic styles */
+/* [data-radix-scroll-area-scrollbar] {
+  display: flex;
+  user-select: none;
+  touch-action: none;
+  padding: 2px;
+  background: #f1f1f1;
+  transition: background 160ms ease-out;
+}
+[data-radix-scroll-area-scrollbar][data-orientation="vertical"] {
+  width: 8px;
+}
+[data-radix-scroll-area-scrollbar][data-orientation="horizontal"] {
+  flex-direction: column;
+  height: 8px;
+}
+[data-radix-scroll-area-thumb] {
+  flex: 1;
+  background: #c1c1c1;
+  border-radius: 8px;
+  position: relative;
+}
+[data-radix-scroll-area-thumb]:hover {
+  background: #a8a8a8;
+}
+[data-radix-scroll-area-corner] {
+  background: #f1f1f1;
+} */
+
+/* .apexcharts-zoom-icon.apexcharts-selected svg {
+  display: none;
+} */
+
+/* .apexcharts-zoom-icon.apexcharts-selected::after {
+  content: "🔍+";
+} */

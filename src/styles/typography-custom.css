@@ -1,0 +1,32 @@
+.radix-themes {
+  --font-size-1: 10px;
+  --font-size-2: 12px;
+  --font-size-3: 14px;
+  --font-size-4: 16px;
+  --font-size-5: 20px;
+  --font-size-7: 24px;
+  --font-size-6: 28px;
+  --font-size-8: 34px;
+  --font-size-9: 40px;
+  --font-size-10: 60px;
+  --letter-spacing-10: -0.4000000059604645px;
+  --line-height-10: 15px;
+  --letter-spacing-12: -0.4000000059604645px;
+  --letter-spacing-14: -0.4000000059604645px;
+  --letter-spacing-16: -0.800000011920929px;
+  --letter-spacing-20: -0.800000011920929px;
+  --letter-spacing-24: -0.800000011920929px;
+  --letter-spacing-28: -0.800000011920929px;
+  --letter-spacing-34: -0.800000011920929px;
+  --letter-spacing-40: -0.800000011920929px;
+  --letter-spacing-60: -0.800000011920929px;
+  --line-height-28: 34px;
+  --line-height-12: 18px;
+  --line-height-34: 36px;
+  --line-height-14: 20px;
+  --line-height-40: 44px;
+  --line-height-16: 24px;
+  --line-height-20: 28px;
+  --line-height-60: 60px;
+  --line-height-24: 32px;
+}

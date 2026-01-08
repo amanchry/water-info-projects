@@ -1,0 +1,313 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?oqd2qq');
+  src:  url('fonts/icomoon.eot?oqd2qq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oqd2qq') format('truetype'),
+    url('fonts/icomoon.woff?oqd2qq') format('woff'),
+    url('fonts/icomoon.svg?oqd2qq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-IconArrow-Up-Right:before {
+  content: "\e900";
+  color: #60646c;
+}
+.icon-IconBook:before {
+  content: "\e901";
+  color: #60646c;
+}
+.icon-IconBook1:before {
+  content: "\e902";
+  color: #3f7fc0;
+}
+.icon-IconBounding-Box:before {
+  content: "\e903";
+  color: #60646c;
+}
+.icon-IconBounding-Box1:before {
+  content: "\e904";
+  color: #3f7fc0;
+}
+.icon-IconCaretDown:before {
+  content: "\e905";
+  color: #60646c;
+}
+.icon-IconCaretDown1:before {
+  content: "\e906";
+  color: #3f7fc0;
+}
+.icon-IconCaretUp:before {
+  content: "\e907";
+  color: #60646c;
+}
+.icon-IconCaretUp1:before {
+  content: "\e908";
+  color: #3f7fc0;
+}
+.icon-IconCheck-circle:before {
+  content: "\e909";
+  color: #60646c;
+}
+.icon-IconCheck-circle1:before {
+  content: "\e90a";
+  color: #3f7fc0;
+}
+.icon-IconCheck:before {
+  content: "\e90b";
+}
+.icon-IconCheck1:before {
+  content: "\e90c";
+}
+.icon-IconChevron-Left:before {
+  content: "\e90d";
+  color: #60646c;
+}
+.icon-Iconclose:before {
+  content: "\e90e";
+  color: #60646c;
+}
+.icon-IconCloudSun:before {
+  content: "\e90f";
+  color: #60646c;
+}
+.icon-IconCloudSun1:before {
+  content: "\e910";
+  color: #3f7fc0;
+}
+.icon-IconCopy:before {
+  content: "\e911";
+  color: #60646c;
+}
+.icon-IconCopy1:before {
+  content: "\e912";
+  color: #3f7fc0;
+}
+.icon-IconCrosshairSimple:before {
+  content: "\e913";
+  color: #60646c;
+}
+.icon-IconCrosshairSimple1:before {
+  content: "\e914";
+  color: #3f7fc0;
+}
+.icon-Iconcsv:before {
+  content: "\e915";
+  color: #60646c;
+}
+.icon-IconDatabase:before {
+  content: "\e916";
+  color: #60646c;
+}
+.icon-IconDatabase1:before {
+  content: "\e917";
+  color: #3f7fc0;
+}
+.icon-IconDouble-check:before {
+  content: "\e918";
+  color: #60646c;
+}
+.icon-IconDownloadSimple:before {
+  content: "\e919";
+  color: #60646c;
+}
+.icon-IconDownloadSimple1:before {
+  content: "\e91a";
+  color: #3f7fc0;
+}
+.icon-IconDropHalfBottom:before {
+  content: "\e91b";
+  color: #60646c;
+}
+.icon-IconDropHalfBottom1:before {
+  content: "\e91c";
+  color: #3f7fc0;
+}
+.icon-IconExpand:before {
+  content: "\e91d";
+  color: #60646c;
+}
+.icon-IconExpand1:before {
+  content: "\e91e";
+  color: #3f7fc0;
+}
+.icon-IconEye:before {
+  content: "\e91f";
+  color: #60646c;
+}
+.icon-IconEye1:before {
+  content: "\e920";
+  color: #3f7fc0;
+}
+.icon-IconEyeClosed:before {
+  content: "\e921";
+  color: #60646c;
+}
+.icon-IconEyeClosed1:before {
+  content: "\e922";
+  color: #3f7fc0;
+}
+.icon-IconGrains:before {
+  content: "\e923";
+  color: #60646c;
+}
+.icon-IconGrains1:before {
+  content: "\e924";
+  color: #3f7fc0;
+}
+.icon-IconHome:before {
+  content: "\e925";
+  color: #60646c;
+}
+.icon-IconHome1:before {
+  content: "\e926";
+  color: #3f7fc0;
+}
+.icon-IconInfo:before {
+  content: "\e927";
+  color: #60646c;
+}
+.icon-IconInfo1:before {
+  content: "\e928";
+  color: #3f7fc0;
+}
+.icon-IconJPG:before {
+  content: "\e929";
+  color: #60646c;
+}
+.icon-IconLoading:before {
+  content: "\e92a";
+  color: #60646c;
+}
+.icon-IconMagnifyingGlass:before {
+  content: "\e92b";
+  color: #60646c;
+}
+.icon-IconMagnifyingGlass1:before {
+  content: "\e92c";
+  color: #3f7fc0;
+}
+.icon-IconMenu:before {
+  content: "\e92d";
+  color: #60646c;
+}
+.icon-IconMenu1:before {
+  content: "\e92e";
+  color: #3f7fc0;
+}
+.icon-IconMinus:before {
+  content: "\e92f";
+  color: #60646c;
+}
+.icon-IconMinus1:before {
+  content: "\e930";
+  color: #3f7fc0;
+}
+.icon-IconMountains:before {
+  content: "\e931";
+  color: #60646c;
+}
+.icon-IconMountains1:before {
+  content: "\e932";
+  color: #3f7fc0;
+}
+.icon-IconNew-Tab:before {
+  content: "\e933";
+  color: #60646c;
+}
+.icon-IconPan:before {
+  content: "\e934";
+  color: #60646c;
+}
+.icon-IconPan1:before {
+  content: "\e935";
+  color: #3f7fc0;
+}
+.icon-Iconpdf1:before {
+  content: "\e936";
+  color: #3f7fc0;
+}
+.icon-Iconpdf:before {
+  content: "\e936";
+  color: #60646c;
+}
+.icon-IconPencil:before {
+  content: "\e937";
+  color: #60646c;
+}
+.icon-IconPencil1:before {
+  content: "\e938";
+  color: #3f7fc0;
+}
+.icon-IconPlus:before {
+  content: "\e939";
+  color: #60646c;
+}
+.icon-IconPlus1:before {
+  content: "\e93a";
+  color: #3f7fc0;
+}
+.icon-Iconpng:before {
+  content: "\e93b";
+  color: #60646c;
+}
+.icon-IconSeal-check:before {
+  content: "\e93c";
+  color: #60646c;
+}
+.icon-IconSeal-check1:before {
+  content: "\e93d";
+  color: #3f7fc0;
+}
+.icon-Iconsvg:before {
+  content: "\e93e";
+  color: #60646c;
+}
+.icon-IconTarget:before {
+  content: "\e93f";
+  color: #60646c;
+}
+.icon-IconTarget1:before {
+  content: "\e940";
+  color: #3f7fc0;
+}
+.icon-IconUser:before {
+  content: "\e941";
+  color: #60646c;
+}
+.icon-IconUser1:before {
+  content: "\e942";
+  color: #3f7fc0;
+}
+.icon-IconZoom-in:before {
+  content: "\e943";
+  color: #60646c;
+}
+.icon-IconZoom-in1:before {
+  content: "\e944";
+  color: #3f7fc0;
+}
+.icon-IconZoom-out:before {
+  content: "\e945";
+  color: #60646c;
+}
+.icon-IconZoom-out1:before {
+  content: "\e946";
+  color: #3f7fc0;
+}

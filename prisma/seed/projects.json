@@ -1,0 +1,227 @@
+[
+  {
+    "project_name": "Global Virtual Water Flow Dashboard",
+    "project_url": "https://virtualwater.waterinag.org/",
+    "project_desc": "Visualizes the movement of virtual water between countries through trade relationships.",
+    "project_keywords": "global, virtual water",
+    "project_thumbnail": "virtual_water.png"
+  },
+  {
+    "project_name": "Nourish & Flourish",
+    "project_url": "https://nourish-flourish.waterinformatics.org/",
+    "project_desc": "WRI Water Stress, Irrigation, FAOSTAT Data",
+    "project_keywords": "nourish-flourish, WRI, faostat",
+    "project_thumbnail": "nourish-flourish.png"
+  },
+  {
+    "project_name": "Tunisia Water Accounting App",
+    "project_url": "https://waterinag.projects.earthengine.app/view/tunisia",
+    "project_desc": "Tunisia Water Accounting App",
+    "project_keywords": "tunisia, gee",
+    "project_thumbnail": "tunisia_gee.png"
+  },
+  {
+    "project_name": "Djibouti Water Accounting App",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/djibouti",
+    "project_desc": "Djibouti Water Accounting App",
+    "project_keywords": "djibouti,  gee",
+    "project_thumbnail": "djibouti_gee.png"
+  },
+  {
+    "project_name": "Kenya Irrigation Performance Assessment",
+    "project_url": "https://kenya-ipa.waterinag.org/",
+    "project_desc": "Kenya Irrigation Performance Assessment",
+    "project_keywords": "kenya, gee",
+    "project_thumbnail": "kenya_gee.png"
+  },
+  {
+    "project_name": "Brazil Irrigated Area Map",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/brazil",
+    "project_desc": "Mapping and analysis of irrigated areas in Brazil using remote sensing data.",
+    "project_keywords": "brazil, irrigation, mapping, gee",
+    "project_thumbnail": "brazil_irrigated_area.png"
+  },
+  {
+    "project_name": "Pakistan IPA",
+    "project_url": "https://pakistan-ipa.waterinag.org/",
+    "project_desc": "Dashboard for irrigation performance assessment and crop water use in Pakistan.",
+    "project_keywords": "pakistan, irrigation, gee",
+    "project_thumbnail": "pakistan_gee.png"
+  },
+  {
+    "project_name": "Central Asia Irrigated Area App",
+    "project_url": "https://hydrosolutions.users.earthengine.app/view/eca-irrigation",
+    "project_desc": "GEE application for mapping and monitoring irrigated areas across Central Asia.",
+    "project_keywords": "central asia, irrigation, gee",
+    "project_thumbnail": "Central Asia Irrigated Area.png"
+  },
+  {
+    "project_name": "Cropmapper Georgia",
+    "project_url": "https://cropmapper-georgia.waterinag.org/",
+    "project_desc": "GEE application for mapping and monitoring irrigated areas across Central Asia.",
+    "project_keywords": "georgia, irrigation, gee",
+    "project_thumbnail": "cropmapper-georgia.png"
+  },
+  {
+    "project_name": "Global Irrigated Area Products",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/irrigated-area-map",
+    "project_desc": "Visualizes global irrigated area datasets for comparative analysis and research.",
+    "project_keywords": "global, irrigation, gee",
+    "project_thumbnail": "global_irrigated_area_products.png"
+  },
+  {
+    "project_name": "Central Asia IPA Dashboard",
+    "project_url": "https://central-asia.waterinag.org/",
+    "project_desc": "Water accounting and irrigation performance assessment for Central Asian basins.",
+    "project_keywords": "central asia, ipa",
+    "project_thumbnail": "central_asia_cropmaper.png"
+  },
+  {
+    "project_name": "India Irrigation Performance Assessment",
+    "project_url": "https://edipa.waterinag.org/",
+    "project_desc": "India Irrigation Performance Assessment (EDIPA)",
+    "project_keywords": "india, irrigation, gee",
+    "project_thumbnail": "edipa.png"
+  },
+  {
+    "project_name": "Afghanistan Crop Mapper",
+    "project_url": "https://hydrosolutions.users.earthengine.app/view/cropmapper-afghanistan-wb-v1",
+    "project_desc": "Afghanistan crop mapping and irrigation performance assessment tool.",
+    "project_keywords": "afghanistan, crop mapping,  gee",
+    "project_thumbnail": "afg_ipa.png"
+  },
+  {
+    "project_name": "India Reservoirs Dashboard",
+    "project_url": "https://india-reservoirs.waterinag.org/",
+    "project_desc": "Reservoir monitoring and analysis platform for India using remote sensing data.",
+    "project_keywords": "india, reservoirs, water storage",
+    "project_thumbnail": "india_reservoirs_gee.png"
+  },
+  {
+    "project_name": "Uganda Irrigation Performance App",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/uganda-ipa",
+    "project_desc": "Irrigation performance assessment and water use analysis app for Uganda.",
+    "project_keywords": "uganda,gee",
+    "project_thumbnail": "uganda_gee.png"
+  },
+  {
+    "project_name": "Nigeria IPA Dashboard",
+    "project_url": "https://nigeria-ipa.waterinag.org/",
+    "project_desc": "Irrigation Performance Assessment platform for Nigeria’s major irrigation schemes.",
+    "project_keywords": "nigeria, gee",
+    "project_thumbnail": "nigeria_gee.png"
+  },
+  {
+    "project_name": "Ukraine Crop Mapper",
+    "project_url": "https://hydrosolutions.users.earthengine.app/view/cropmapper-ukraine",
+    "project_desc": "Ukraine Crop Mapper",
+    "project_keywords": "ukraine, crop mapping, ipa, gee",
+    "project_thumbnail": "ukrain_cropmaper.png"
+  },
+  {
+    "project_name": "Fiji Water Informatics App",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/fiji-ipa",
+    "project_desc": "Fiji Water Informatics App",
+    "project_keywords": "fiji,gee",
+    "project_thumbnail": "fiji_gee.png"
+  },
+  {
+    "project_name": "Sahel GW Level",
+    "project_desc": "depth to water (DTW), Sahel Region ",
+    "project_keywords": "DTW, Sahel , Irrigation Expansion",
+    "project_thumbnail": "sahel_gw_level.png",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/gw-level"
+  },
+  {
+    "project_name": "Latin America Yield Gap",
+    "project_desc": "Latin America Yield Gap",
+    "project_keywords": "MIRCA-OS, Irrigated Area",
+    "project_thumbnail": "latin_america.png",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/lac-yield-gap"
+  },
+  {
+    "project_name": "ECA Irrigation",
+    "project_desc": "ECA Irrigation",
+    "project_keywords": "Irrigation, Central Asia",
+    "project_thumbnail": "eca_irrigation.png",
+    "project_url": "https://hydrosolutions.users.earthengine.app/view/eca-irrigation"
+  },
+  {
+    "project_name": "Burundi Irrigation Dashboard",
+    "project_url": "https://burundi-irrigation.waterinag.org/",
+    "project_desc": "Burundi Irrigation Dashboard",
+    "project_keywords": "burundi, gee",
+    "project_thumbnail": "burundi_gee.png"
+  },
+  {
+    "project_name": "Afghanistan Water Informatics Dashboard",
+    "project_url": "https://afg.waterinformatics.org/",
+    "project_desc": "Afghanistan Water Informatics Dashboard",
+    "project_keywords": "afghanistan, water informatics",
+    "project_thumbnail": "AFG_WI.png"
+  },
+  {
+    "project_name": "India IPA Report Generator (EQIPA)",
+    "project_url": "https://eqipa.waterinag.org/",
+    "project_desc": "Automated IPA report generator for irrigation schemes in India. Based on selected year and season.",
+    "project_keywords": "india, ipa",
+    "project_thumbnail": "eqipa.png"
+  },
+  {
+    "project_name": "India Water Accounting Dashboard",
+    "project_url": "https://india.waterinag.org/",
+    "project_desc": "National-level platform for state and basin-scale water accounting in India.",
+    "project_keywords": "india, water accounting",
+    "project_thumbnail": "india_ipa.png"
+  },
+  {
+    "project_name": "Global Water Accounting Dashboard",
+    "project_url": "https://global.waterinag.org/",
+    "project_desc": "Automated Water Accounting Report Generator for any Country and Basin.",
+    "project_keywords": "global, water accounting",
+    "project_thumbnail": "global_wagen.png"
+  },
+  {
+    "project_name": "GeoAI Chat App",
+    "project_url": "https://geochat.waterinag.org/",
+    "project_desc": "AI-powered geospatial assistant",
+    "project_keywords": "GeoAI, Geospatial Analysis",
+    "project_thumbnail": "geoai_chat.png"
+  },
+  {
+    "project_name": "Kenya Water Informatics Dashboard",
+    "project_url": "https://kenya.waterinformatics.org/",
+    "project_desc": "Kenya Water Informatics Dashboard",
+    "project_keywords": "kenya, water informatics",
+    "project_thumbnail": "kwid.png"
+  },
+  {
+    "project_name": "Zambia Water Informatics Dashboard",
+    "project_url": "https://zambia.waterinformatics.org/",
+    "project_desc": "Zambia Water Informatics Dashboard",
+    "project_keywords": "zambia, water informatics",
+    "project_thumbnail": "zwid.png"
+  },
+  {
+    "project_name": "Mashreq Water Informatics Dashboard",
+    "project_url": "https://mashreq.waterinformatics.org/",
+    "project_desc": "Mashreq Water Informatics Dashboard",
+    "project_keywords": "Iran , Turkey ,Iraq ,Jordan ,Syrian Arab Republic ,Israel",
+    "project_thumbnail": "mwid.png"
+  },
+  {
+    "project_name": "Kenya Poverty Visualizer",
+    "project_desc": "Kenya Poverty Visualizer",
+    "project_keywords": "Kenya, Poverty, Hydronomic Zones",
+    "project_thumbnail": "kenya_poverty_gee.png",
+    "project_url": "https://waterinfor.projects.earthengine.app/view/kenya-poverty"
+  },
+  
+  {
+    "project_name": "North Macedonia",
+    "project_desc": "North Macedonia",
+    "project_keywords": "North Macedonia, Water Use",
+    "project_thumbnail": "north_macedonia.png",
+    "project_url": "https://north-macedonia.waterinag.org/"
+  }
+]

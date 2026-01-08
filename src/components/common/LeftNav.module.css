@@ -1,0 +1,25 @@
+.navButton:hover:not(.active) {
+  background-color: #ECF2F9 !important;
+  cursor: pointer;
+}
+
+.navButton:hover:not(.active) .navIcon {
+  transform: scale(0.9);
+}
+
+.navIcon {
+  transition: transform 0.2s ease;
+}
+
+.navLink:hover:not(.active) {
+  background-color: #ECF2F9 !important;
+  cursor: pointer;
+}
+
+.navLink:hover:not(.active) .navIcon {
+  transform: scale(0.9);
+}
+
+.active {
+  cursor: default;
+}
