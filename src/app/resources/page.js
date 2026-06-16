@@ -37,7 +37,7 @@ function ResourceCard({ resource, onDelete }) {
         </h3>
 
         {resource.resource_desc && (
-          <p className="text-sm text-gray-600 mt-2 line-clamp-2">
+          <p className="text-sm text-gray-600 mt-2">
             {resource.resource_desc}
           </p>
         )}
