@@ -23,6 +23,8 @@ useEffect(() => {
     setActiveNav("overView");
   } else if (pathname.startsWith("/info")) {
     setActiveNav("info");
+  } else if (pathname.startsWith("/resources")) {
+    setActiveNav("resources");
   }else {
     setActiveNav(""); // reset to none
   }
@@ -90,7 +92,33 @@ useEffect(() => {
 
         
 
+
+
         <Flex width="48px" height="48px" justify="center" align="center">
+          <Tooltip content="External Websites & Dashboards" side="right">
+            <IconButton
+              variant={activeNav === "resources" ? "soft" : "ghost"}
+              size="4"
+              radius="none"
+              onClick={() => router.push("/resources")}
+              id="resources"
+              className={`${styles.navButton} ${activeNav === "resources" ? styles.active : ""}`}
+              style={activeNav === "resources" ? { backgroundColor: "#EDF3F9" } : {}}
+            >
+              <Box
+                as="span"
+                className={`${
+                  activeNav === "resources"
+                    ? "icon-IconDatabase1"
+                    : "icon-IconDatabase"
+                } text-2xl ${styles.navIcon}`}
+                style={activeNav === "resources" ? { color: "#3F7FC0" } : {}}
+              ></Box>
+            </IconButton>
+          </Tooltip>
+        </Flex>
+
+                <Flex width="48px" height="48px" justify="center" align="center">
           <Tooltip content="Info" side="right">
             <IconButton
               variant={activeNav === "info" ? "soft" : "ghost"}
@@ -113,6 +141,7 @@ useEffect(() => {
             </IconButton>
           </Tooltip>
         </Flex>
+        
 
         {/* <Flex width="48px" height="48px" justify="center" align="center">
           <Tooltip content="Water Accounting Report Generator" side="right">

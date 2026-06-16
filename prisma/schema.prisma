@@ -24,7 +24,19 @@ model Project {
   project_desc      String?
   project_keywords  String?
   project_thumbnail String?
-  project_thumb_pid String?   
+  project_thumb_pid String?
   project_url       String?
   createdAt         DateTime @default(now())
+}
+
+
+model Resource {
+  id                 String   @id @default(auto()) @map("_id") @db.ObjectId
+  resource_name      String
+  resource_desc      String?
+  resource_keywords  String?
+  resource_thumbnail String?
+  resource_thumb_pid String?
+  resource_url       String?
+  createdAt          DateTime @default(now())
 }

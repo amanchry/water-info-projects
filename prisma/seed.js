@@ -80,6 +80,53 @@ async function main() {
   }
 
   console.log(`🎉 Done. Inserted ${projects.length} projects.`);
+
+  const resourcesJsonPath = path.join(process.cwd(), "prisma/seed/resources.json");
+  const resources = JSON.parse(fs.readFileSync(resourcesJsonPath, "utf-8"));
+
+  // ⚠️ Only for initial setup
+  await prisma.resource.deleteMany();
+  console.log("🗑️ Cleared existing resources.");
+
+  for (const r of resources) {
+    let thumbnailUrl = null;
+    let thumbPid = null;
+
+    // If resource_thumbnail is a local filename => upload it
+    if (r.resource_thumbnail && !r.resource_thumbnail.startsWith("http")) {
+      const absImagePath = path.join(mediaDir, r.resource_thumbnail);
+
+      if (!fs.existsSync(absImagePath)) {
+        throw new Error(`❌ Missing image file: ${absImagePath}`);
+      }
+
+      const uploaded = await uploadLocalImageToCloudinary(
+        absImagePath,
+        "water-info/resources" // cloudinary folder
+      );
+
+      thumbnailUrl = uploaded.secure_url;
+      thumbPid = uploaded.public_id;
+    } else if (r.resource_thumbnail?.startsWith("http")) {
+      // If already a cloud url (optional)
+      thumbnailUrl = r.resource_thumbnail;
+    }
+
+    await prisma.resource.create({
+      data: {
+        resource_name: r.resource_name,
+        resource_url: r.resource_url || "",
+        resource_desc: r.resource_desc || "",
+        resource_keywords: r.resource_keywords || "",
+        resource_thumbnail: thumbnailUrl,
+        resource_thumb_pid: thumbPid,
+      },
+    });
+
+    console.log(`✅ Seeded: ${r.resource_name}`);
+  }
+
+  console.log(`🎉 Done. Inserted ${resources.length} resources.`);
 }
 
 main()
