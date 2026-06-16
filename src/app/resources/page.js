@@ -32,7 +32,7 @@ function ResourceCard({ resource, onDelete }) {
       )}
 
       <div className="p-4">
-        <h3 className="font-semibold text-gray-800 truncate">
+        <h3 className="font-semibold text-gray-800 ">
           {resource.resource_name}
         </h3>
 
